@@ -560,6 +560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 490841601}
   - component: {fileID: 490841600}
+  - component: {fileID: 490841602}
   m_Layer: 0
   m_Name: HoleGreen
   m_TagString: Untagged
@@ -604,6 +605,19 @@ Transform:
   - {fileID: 864577732}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &490841602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490841599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188b8b8c0982fcd458ff1adc01e2c67f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: BallGreen
 --- !u!1 &569902069
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,6 +1684,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1192275106}
   - component: {fileID: 1192275105}
+  - component: {fileID: 1192275107}
   m_Layer: 0
   m_Name: HoleRed
   m_TagString: Untagged
@@ -1714,6 +1729,19 @@ Transform:
   - {fileID: 934157042}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1192275107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192275104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188b8b8c0982fcd458ff1adc01e2c67f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: BallRed
 --- !u!1 &1254082186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +1962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1371126054}
   - component: {fileID: 1371126053}
+  - component: {fileID: 1371126055}
   m_Layer: 0
   m_Name: HoleBlue
   m_TagString: Untagged
@@ -1978,6 +2007,19 @@ Transform:
   - {fileID: 1466865136}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371126055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371126052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188b8b8c0982fcd458ff1adc01e2c67f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: BallBlue
 --- !u!1 &1466865135
 GameObject:
   m_ObjectHideFlags: 0
